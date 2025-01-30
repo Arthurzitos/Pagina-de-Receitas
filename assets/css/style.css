@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    font-family:'Alice', sans-serif;
+    --bg-color: #F0E8C2;
+    --text-color: #291B1A;
+}
 body {
     background-image: url(../img/bg-image.jpg);
     background-size: cover;
@@ -9,11 +15,24 @@ body {
     width: 800px;
     padding: 24px;
     margin: 48px auto;
-    background-color: #F0E8C2;
+    background-color: var(--bg-color);
     border-radius: 24px;
 }
 
 
 img {
     border-radius: 16px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: var(--text-color);
 }
